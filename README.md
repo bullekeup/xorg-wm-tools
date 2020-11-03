@@ -67,24 +67,28 @@ Create a build dir in polybar-dwm-module and cd to it
 
 Build with modules you want and install dir you want :
 
-CXX=g++ OR CXX=clang++
+``` bash
+CXX=g++
+CXX=clang++
+```
 
-cmake                                           \
-	-DCMAKE_CXX_COMPILER="${CXX}"           \
-	-DENABLE_ALSA:BOOL="ON"                 \
-	-DENABLE_PULSEAUDIO:BOOL="ON"           \
-	-DENABLE_DWM:BOOL="ON"                  \
-	-DENABLE_MPD:BOOL="ON"                  \
-	-DENABLE_NETWORK:BOOL="ON"              \
-	-DENABLE_CURL:BOOL="ON"                 \
-	-DBUILD_IPC_MSG:BOOL="ON"               \
-	-DBUILD_TESTS:BOOL="ON"                 \
-	-DCMAKE_INSTALL_PREFIX=~/.local         \
+``` bash
+cmake                                           \\
+	-DCMAKE_CXX_COMPILER="${CXX}"           \\
+	-DENABLE_ALSA:BOOL="ON"                 \\
+	-DENABLE_PULSEAUDIO:BOOL="ON"           \\
+	-DENABLE_DWM:BOOL="ON"                  \\
+	-DENABLE_MPD:BOOL="ON"                  \\
+	-DENABLE_NETWORK:BOOL="ON"              \\
+	-DENABLE_CURL:BOOL="ON"                 \\
+	-DBUILD_IPC_MSG:BOOL="ON"               \\
+	-DBUILD_TESTS:BOOL="ON"                 \\
+	-DCMAKE_INSTALL_PREFIX=~/.local         \\
 	..
-
 make -jX
 make test
 make install
+```
 
 ### Dependencies
 
