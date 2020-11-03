@@ -1,0 +1,27 @@
+[submodule "displayset"]
+	path = displayset
+	url = https://github.com/bullekeup/displayset.git
+[submodule "dwm"]
+	path = dwm
+	url = https://github.com/bullekeup/dwm.git
+[submodule "dwm-config"]
+	path = dwm-config
+	url = https://github.com/bullekeup/dwm-config.git
+[submodule "polybar-config"]
+	path = polybar-config
+	url = https://github.com/bullekeup/polybar-config.git
+[submodule "polybar-dwm-module"]
+	path = polybar-dwm-module
+	url = https://github.com/mihirlad55/polybar-dwm-module.git
+[submodule "pop-os-shell"]
+	path = pop-os-shell
+	url = https://github.com/pop-os/shell.git
+[submodule "user-fonts-install"]
+	path = user-fonts-install
+	url = https://github.com/bullekeup/user-fonts-install
+[submodule "wallpapers"]
+	path = wallpapers
+	url = https://github.com/bullekeup/wallpapers
+[submodule "dotfiles"]
+	path = dotfiles
+	url = https://github.com/bullekeup/dotfiles.git
