@@ -4,6 +4,23 @@ Can clone with all the submodules to build a DWM + polybar X11 setup :
 
 git clone --recursive https://github.com/bullekeup/x11-tools
 
+Auto install with ./install.sh
+
+This will install 
+
+- dwm to /opt/local/dwm, with a wrapper dwm-wrapper in /usr/bin and a dwm.desktop file in /usr/share/xsessions to allow display manager to launch dwm
+- dwm-config in ~/.local/share/dwm
+- polybar-config in ~/.config/polybar
+- polybar-dwm-module to /opt/local/polybar-dwm-module, with symlinks in /usr/bin
+- fonts in user-specific ~/.local/share/fonts
+- wallpapers in ~/.local/share/wallpapers
+- dotfiles
+ - .zshrc, .p10k.zsh, .bashrc, .xprofile, .profile in ~/
+ - alacritty.yml in ~/.config/alacritty
+ - dunst config in ~/.config/dunst
+ - tmux.conf in ~/
+
+
 ## displayset
 
 A simple display auto-setup script using xrandr.
@@ -13,10 +30,10 @@ Install through the AUR : yay -S displayset displayset-udev-rules displayset-doc
 
 ### Dependencies
 
-xrandr
-A POSIX sh shell
-awk
-udev (for udev rule)
+- xrandr
+- A POSIX sh shell
+- awk
+- udev (for udev rule)
 
 ## dwm
 
@@ -41,7 +58,7 @@ See https://github.com/polybar/polybar/wiki/Compiling#building
 
 Install from the AUR : yay -S polybar-dwm-module
 
-### Build
+### Build
 
 Clone the repo with all submodules:
 git clone --recursive https://github.com/mihirlad55/polybar-dwm-module
@@ -71,13 +88,13 @@ make install
 
 ### Dependencies
 
-jsoncpp
-alsalib (alsa-lib on Arch) (alsa support)
-libpulse (pulseaudio support)
-libnl / libiw (wireless_tools on Arch) (network support)
-libmpdclient / libmpd (mpd support)
-clang (optional if GCC installed)
-libcurl (github plugin)
+- jsoncpp
+- alsalib (alsa-lib on Arch) (alsa support)
+- libpulse (pulseaudio support)
+- libnl / libiw (wireless_tools on Arch) (network support)
+- libmpdclient / libmpd (mpd support)
+- clang (optional if GCC installed)
+- libcurl (github plugin)
 
 ## Installation as user
 
