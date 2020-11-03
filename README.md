@@ -73,17 +73,17 @@ CXX=clang++
 ```
 
 ``` bash
-cmake                                           \\
-	-DCMAKE_CXX_COMPILER="${CXX}"           \\
-	-DENABLE_ALSA:BOOL="ON"                 \\
-	-DENABLE_PULSEAUDIO:BOOL="ON"           \\
-	-DENABLE_DWM:BOOL="ON"                  \\
-	-DENABLE_MPD:BOOL="ON"                  \\
-	-DENABLE_NETWORK:BOOL="ON"              \\
-	-DENABLE_CURL:BOOL="ON"                 \\
-	-DBUILD_IPC_MSG:BOOL="ON"               \\
-	-DBUILD_TESTS:BOOL="ON"                 \\
-	-DCMAKE_INSTALL_PREFIX=~/.local         \\
+cmake                                           \
+	-DCMAKE_CXX_COMPILER="${CXX}"           \
+	-DENABLE_ALSA:BOOL="ON"                 \
+	-DENABLE_PULSEAUDIO:BOOL="ON"           \
+	-DENABLE_DWM:BOOL="ON"                  \
+	-DENABLE_MPD:BOOL="ON"                  \
+	-DENABLE_NETWORK:BOOL="ON"              \
+	-DENABLE_CURL:BOOL="ON"                 \
+	-DBUILD_IPC_MSG:BOOL="ON"               \
+	-DBUILD_TESTS:BOOL="ON"                 \
+	-DCMAKE_INSTALL_PREFIX=~/.local         \
 	..
 make -jX
 make test
