@@ -25,3 +25,6 @@
 [submodule "dotfiles"]
 	path = dotfiles
 	url = https://github.com/bullekeup/dotfiles.git
+[submodule "notes"]
+	path = notes
+	url = https://github.com/pimterry/notes.git
