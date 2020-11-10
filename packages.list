@@ -166,3 +166,12 @@ mediainfo
 fzf
 vim
 trash-cli
+clang
+compiler-rt
+lib32-clang
+llvm
+ctags
+vim-spell-fr
+vim-spell-en
+openssl-1.0
+cpanminus
