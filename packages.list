@@ -175,3 +175,18 @@ vim-spell-fr
 vim-spell-en
 openssl-1.0
 cpanminus
+ccls
+watchman
+docker
+docker-compose
+docker-machine
+dotnet-host
+dotnet-runtime
+dotnet-sdk
+dotnet-targeting-pack
+lttng-ust
+aspnet-targeting-pack
+babeltrace2
+cuda cudnn pycuda-headers python-pycuda python-tensorflow-cuda tensorflow-cuda tensorflow-opt-cuda
+tensorrt tensorrt-doc
+opencv opencv-samples
